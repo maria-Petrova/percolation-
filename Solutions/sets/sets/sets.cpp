@@ -68,4 +68,5 @@ void sets :: print() {
 
 sets :: ~sets() {
   delete[] arr;
+  delete[] harr;
 }
