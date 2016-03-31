@@ -12,7 +12,7 @@ void main() {
       preparation(&set, n, m);
       count = 0;
       countino(&set, count, n, m);
-      res += count; // *1.0 / n / m;
+      res += count * 1.0 / n / m;
     }
     std::cout <<"percentage = " << (res / numb)
     << std::endl;
